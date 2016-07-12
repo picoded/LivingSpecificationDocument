@@ -1,0 +1,47 @@
+/**
+*** Color management
+**/
+body {
+	background: grey;
+}
+
+.lsd_filterPanel {
+	background: #272727;
+}
+
+.lsd_filterPanel h1 {
+	color: #FFFFFF;
+}
+.lsd_filterPanel h2,
+.lsd_filterSet {
+	border-color: #d9d9d9;
+	color: #d9d9d9;
+}
+
+.lsd_sectionPanel {
+	background: #595959;
+}
+
+/**
+*** Layout management
+**/
+
+/* Trying to get a minimum height of full screen */
+@media (min-width: 576px) {
+	.lsd_mainRow, .lsd_main, body, html {
+		height:100%;
+		min-height: 100%;
+	}
+}
+
+
+.lsd_filterPanel .lsd_title {
+	text-align: center;
+	padding:20px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.lsd_filterPanel h2 {
+	border-bottom: 1px solid;
+}

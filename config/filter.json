@@ -1,0 +1,43 @@
+[
+	{
+		"name" : "Phase",
+		"items" : [
+			{
+				"name" : "One",
+				"class" : "phase1",
+				"default" : true
+			},
+			{
+				"name" : "Two",
+				"class" : "phase2"
+			},
+			{
+				"name" : "Wishlist",
+				"class" : "wishlist"
+			}
+		]
+	},
+	{
+		"name" : "Document Type",
+		"items" : [
+			{
+				"name" : "Functional",
+				"class" : "functional",
+				"default" : true
+			},
+			{
+				"name" : "Technical",
+				"class" : "technical"
+			}
+		]
+	},
+	{
+		"name" : "Highlights",
+		"items" : [
+			{
+				"name" : "Filter Highlight",
+				"class" : "filterHighlight"
+			}
+		]
+	}
+]
