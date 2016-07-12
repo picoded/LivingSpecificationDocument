@@ -1,7 +1,7 @@
 [
 	{
 		"name" : "Phase",
-		"items" : [
+		"filters" : [
 			{
 				"name" : "One",
 				"class" : "phase1",
@@ -19,7 +19,7 @@
 	},
 	{
 		"name" : "Document Type",
-		"items" : [
+		"filters" : [
 			{
 				"name" : "Functional",
 				"class" : "functional",
@@ -32,11 +32,12 @@
 		]
 	},
 	{
-		"name" : "Highlights",
-		"items" : [
+		"name" : "Highlight",
+		"filters" : [
 			{
-				"name" : "Filter Highlight",
-				"class" : "filterHighlight"
+				"name" : "By Filters",
+				"class" : "filterHighlight",
+				"default" : true
 			}
 		]
 	}

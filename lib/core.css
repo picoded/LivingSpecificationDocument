@@ -18,8 +18,19 @@ body {
 	color: #d9d9d9;
 }
 
-.lsd_sectionPanel {
+.lsd_navPanel {
 	background: #595959;
+}
+
+/**
+*** Font sizing management
+**/
+.lsd_filterPanel h1 {
+	font-size: 1.6rem;
+}
+
+.lsd_filterPanel h2 {
+	font-size: 1.2rem;
 }
 
 /**
@@ -34,7 +45,6 @@ body {
 	}
 }
 
-
 .lsd_filterPanel .lsd_title {
 	text-align: center;
 	padding:20px;
@@ -44,4 +54,8 @@ body {
 
 .lsd_filterPanel h2 {
 	border-bottom: 1px solid;
+}
+
+.lsd_filterPanel .material-icons {
+	margin-right:0.5rem;
 }
