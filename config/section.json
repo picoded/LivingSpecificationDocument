@@ -49,5 +49,50 @@
 				]
 			}
 		]
+	},
+	{
+		"name" : "Phases & Filters",
+		
+		"subsections" : [
+			{
+				"name" : "Project phases"
+			},
+			{
+				"name" : "Functional vs Technical"
+			},
+			{
+				"name" : "Color highlighting"
+			}
+		]
+	},
+	{
+		"name" : "The one screen",
+		
+		"subsections" : [
+			{
+				"name" : "Filter panel"
+			}, 
+			{
+				"name" : "Navigator panel"
+			},
+			{
+				"name" : "Content panel"
+			},
+			{
+				"name" : "Customizing styling"
+			}
+		]
+	},
+	{
+		"name" : "Follow up",
+		
+		"subsections" : [
+			{
+				"name" : "Amendment process"
+			},
+			{
+				"name" : "Open issues"
+			}
+		]
 	}
 ]
