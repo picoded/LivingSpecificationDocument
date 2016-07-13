@@ -13,7 +13,7 @@
 			},
 			{
 				"name" : "Wishlist",
-				"class" : "wishlist"
+				"class" : "phaseW"
 			}
 		]
 	},
@@ -22,12 +22,12 @@
 		"filters" : [
 			{
 				"name" : "Functional",
-				"class" : "functional",
+				"class" : "funcDoc",
 				"default" : true
 			},
 			{
 				"name" : "Technical",
-				"class" : "technical"
+				"class" : "techDoc"
 			}
 		]
 	},

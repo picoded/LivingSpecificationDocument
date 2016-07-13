@@ -20,6 +20,11 @@ body {
 
 .lsd_navPanel {
 	background: #595959;
+	color: #d9d9d9;
+}
+
+.lsd_contentPanel {
+	background: #f2f2f2;
 }
 
 /**
@@ -34,6 +39,19 @@ body {
 }
 
 /**
+*** Navigator offset
+**/
+.lsd_navPanel button {
+	padding:0.5rem;
+	padding-left:0rem;
+	padding-right:0rem;
+}
+
+.lsd_navPanel .lsd_navBox .navLvl_1 {
+	padding-left:0.5rem;
+}
+
+/**
 *** Layout management
 **/
 
@@ -42,6 +60,10 @@ body {
 	.lsd_mainRow, .lsd_main, body, html {
 		height:100%;
 		min-height: 100%;
+	}
+	
+	.lsd_filterPanel, .lsd_navPanel, .lsd_contentBox {
+		overflow-y:auto;
 	}
 }
 

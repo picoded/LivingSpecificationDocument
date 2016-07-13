@@ -2,18 +2,20 @@
 	{
 		"name" : "Front Cover",
 		"file" : "cover.md",
-		
-		/* Use blank to disable the automated title in the actual document */
-		"title" : "",
-		
-		/* Disable the button on the navigator panel */
-		"disableNav" : true 
+		"title" : ""
 	},
 	{
 		"name" : "Overview",
-		"sections" : [
+		"file" : "overview/prefix.md",
+		"subsections" : [
 			{
-				
+				"name" : "Disclaimer",
+				"file" : "overview/disclaimer.md"
+			},
+			
+			{
+				"name" : "Actors",
+				"file" : "overview/actors.md"
 			}
 		]
 	}
