@@ -12,10 +12,41 @@
 				"name" : "Disclaimer",
 				"file" : "overview/disclaimer.md"
 			},
+			{
+				"name" : "Why put a Disclaimer?",
+				"file" : "overview/why-disclaimer.md"
+			},
 			
 			{
-				"name" : "Actors",
-				"file" : "overview/actors.md"
+				"name" : "The usual suspects",
+				"file" : "overview/scenarios.md",
+				
+				"subsections" : [
+					{
+						"name" : "Saleslady: Salesy",
+						"file" : "overview/actors/salesy.md"
+					},
+					{
+						"name" : "Designer: Desi",
+						"file" : "overview/actors/desi.md"
+					},
+					{
+						"name" : "Developer: Ada",
+						"file" : "overview/actors/ada.md"
+					},
+					{
+						"name" : "Intern: Newlyn",
+						"file" : "overview/actors/newlyn.md"
+					},
+					{
+						"name" : "Customer: Casha",
+						"file" : "overview/actors/casha.md"
+					},
+					{
+						"name" : "Manager: Manci",
+						"file" : "overview/actors/manci.md"
+					}
+				]
 			}
 		]
 	}

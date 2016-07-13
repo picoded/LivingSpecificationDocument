@@ -18,28 +18,34 @@
 	<link rel="stylesheet" href="./web-libs/bootstrap/material-design/dist/bootstrap-material-design.min.css">
 	<script src="./web-libs/bootstrap/material-design/dist/bootstrap-material-design.iife.min.js"></script>
 	
-	<!-- Common mark -->
-	<script src="./web-libs/commonmark/commonmark.js"></script>
+	<!-- Mark down support -->
+	<script src="./web-libs/remarkable/remarkable.js"></script>
 	
 	<!-- Actual LivingSpecificationDocument files : these load the config -->
-	<link href="./lib/core.css" rel="stylesheet">
+	<link href="./lib/core.less" rel="stylesheet/less" type="text/css">
 	<script src="./lib/core.js"></script>
+	
+	<!-- document styling -->
+	<link rel="stylesheet/less" type="text/css" href="docu.less" />
+	
+	<!-- Less script support -->
+	<script src="./web-libs/LESS/less.js" type="text/javascript"></script>
 	
 </head>
 <body>
 	<div class="container-fluid lsd_main">
 		<div class="row lsd_mainRow">
-			<div class="col-sm-3 col-xl-2 lsd_filterPanel">
+			<div class="col-sm-3 col-xl-2 lsd_filterPanel" id="lsd_filterPanel">
 				<h1 class="lsd_title" id="lsd_title">Title Block</h1>
 				<div class="lsd_dynFilterBox lsd_filterStatusBox" id="lsd_dynFilterBox">
 				</div>
 			</div>
-			<div class="col-sm-3 col-xl-2 lsd_navPanel">
+			<div class="col-sm-3 col-xl-2 lsd_navPanel" id="lsd_navPanel">
 				<div class="lsd_navBox lsd_filterStatusBox list-group" id="lsd_navBox">
 					
 				</div>
 			</div>
-			<div class="col-sm-6 col-xl-8 lsd_contentPanel">
+			<div class="col-sm-6 col-xl-8 lsd_contentPanel" id="lsd_contentPanel">
 				<div class="lsd_contentBox lsd_filterStatusBox" id="lsd_contentBox">
 					
 				</div>

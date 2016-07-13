@@ -1,0 +1,139 @@
+/**
+*** Navigator color management
+**/
+body {
+	background: grey;
+}
+
+.lsd_filterPanel {
+	background: #272727;
+	
+	h1 {
+		color: #FFFFFF;
+	}
+	
+	h2, .lsd_filterSet {
+		border-color: #d9d9d9;
+		color: #d9d9d9;
+	}
+}
+
+.lsd_navPanel {
+	background: #595959;
+	color: #d9d9d9;
+}
+
+/**
+*** Content panel color management
+**/
+.lsd_contentPanel {
+	background: #f2f2f2;
+	
+	h1,h2,h3,h4,h5,h6 {
+		color:#0e108a;
+	}
+	
+	blockquote {
+		background-color: rgb(208, 208, 208);
+		font-style: italic;
+		border-left: 4px solid #0e108a;
+		
+		p {
+			margin:0;
+		}
+	}
+}
+
+/**
+*** Font sizing management
+**/
+.lsd_filterPanel {
+	h1 {
+		font-size: 1.6rem;
+	}
+	h2 {
+		font-size: 1.2rem;
+	}
+}
+
+/**
+*** Navigator offset
+**/
+.lsd_navPanel {
+	button {
+		padding:0.6rem;
+		padding-left:0rem;
+		padding-right:0rem;
+	}
+	
+	.lsd_navBox {
+		.navLvl_1 {
+			padding-left:0.6rem;
+		}
+		.navLvl_2 {
+			padding-left:1.2rem;
+		}
+		.navLvl_3 {
+			padding-left:1.8rem;
+		}
+		.navLvl_4 {
+			padding-left:2.4rem;
+		}
+	}
+}
+
+/**
+*** Layout management
+**/
+
+/* Trying to get a minimum height of full screen */
+@media (min-width: 576px) {
+	.lsd_mainRow, .lsd_main, body, html {
+		height:100%;
+		min-height: 100%;
+	}
+	
+	.lsd_filterPanel, .lsd_navPanel, .lsd_contentPanel {
+		overflow-y:auto;
+	}
+}
+
+.lsd_filterPanel .lsd_title {
+	text-align: center;
+	padding:20px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.lsd_filterPanel h2 {
+	border-bottom: 1px solid;
+}
+
+.lsd_filterPanel .material-icons {
+	margin-right:0.5rem;
+}
+
+/**
+*** Content Layout management
+**/
+
+.lsd_contentBox {
+	padding:20px;
+	
+	table {
+		width:100%;
+	}
+	
+	blockquote {
+		padding:10px;
+	}
+}
+
+/**
+*** Print media handling
+**/
+@media print {
+	.lsd_filterPanel, .lsd_navPanel {
+		display:none;
+	}
+}
