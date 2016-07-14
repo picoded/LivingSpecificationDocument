@@ -3,16 +3,20 @@
 		"name" : "Phase",
 		"filters" : [
 			{
-				"name" : "One",
+				"name" : "Basic POC",
 				"class" : "phase1",
 				"default" : true
 			},
 			{
-				"name" : "Two",
+				"name" : "Advanced Viewer",
 				"class" : "phase2"
 			},
 			{
-				"name" : "Wishlist",
+				"name" : "Editor",
+				"class" : "phase3"
+			},
+			{
+				"name" : "Wishes & Dreams",
 				"class" : "phaseW"
 			}
 		]
@@ -28,6 +32,31 @@
 			{
 				"name" : "Technical",
 				"class" : "techDoc"
+			}
+		]
+	},
+	{
+		"name" : "Implementation",
+		"filters" : [
+			{
+				"name" : "Completed",
+				"class" : "completed",
+				"default" : true
+			},
+			{
+				"name" : "Buggy",
+				"class" : "buggy",
+				"default" : true
+			},
+			{
+				"name" : "To do next",
+				"class" : "todo",
+				"default" : true
+			},
+			{
+				"name" : "Wishlist",
+				"class" : "wishlist",
+				"default" : true
 			}
 		]
 	},

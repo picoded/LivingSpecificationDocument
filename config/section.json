@@ -16,7 +16,10 @@
 				"name" : "Why put a Disclaimer?",
 				"file" : "overview/why-disclaimer.md"
 			},
-			
+			{
+				"name" : "The tone?",
+				"file" : "overview/tone.md"
+			},
 			{
 				"name" : "The usual suspects",
 				"file" : "overview/scenarios.md",
@@ -51,26 +54,37 @@
 		]
 	},
 	{
-		"name" : "Phases & Filters",
+		"name" : "Phases & Document types",
+		"file" : "phases/prefix.md",
 		
 		"subsections" : [
 			{
-				"name" : "Project phases"
+				"name" : "Project phases",
+				"file" : "phases/project.md"
 			},
 			{
-				"name" : "Functional vs Technical"
-			},
-			{
-				"name" : "Color highlighting"
+				"name" : "Functional vs Technical",
+				"file" : "phases/func-vs-tech.md"
 			}
 		]
 	},
 	{
 		"name" : "The one screen",
+		"file" : "screen/theone.md",
 		
 		"subsections" : [
 			{
-				"name" : "Filter panel"
+				"name" : "Filter panel",
+				"file" : "screen/filter.md",
+				
+				"subsections" : [
+					{
+						"name" : "Phases and more"
+					},
+					{
+						"name" : "Color highlighting"
+					}
+				]
 			}, 
 			{
 				"name" : "Navigator panel"

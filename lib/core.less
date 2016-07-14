@@ -33,12 +33,12 @@ body {
 		color:#0e108a;
 	}
 	
-	blockquote {
+	blockquote, pre {
 		background-color: rgb(208, 208, 208);
 		font-style: italic;
 		border-left: 4px solid #0e108a;
 		
-		p {
+		p, code {
 			margin:0;
 		}
 	}
@@ -122,10 +122,26 @@ body {
 	
 	table {
 		width:100%;
+		
+		td, th {
+			padding-left:20px;
+			padding-right:20px;
+			padding-top:10px;
+			padding-bottom:10px;
+		}
 	}
 	
 	blockquote {
 		padding:10px;
+	}
+	
+	pre {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	img {
+		max-width: 100%;
 	}
 }
 
