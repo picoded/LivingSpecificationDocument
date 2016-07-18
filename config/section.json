@@ -79,18 +79,29 @@
 				
 				"subsections" : [
 					{
-						"name" : "Phases and more"
+						"name" : "Fire those phasers",
+						"file" : "screen/core-filters.md"
 					},
 					{
-						"name" : "Color highlighting"
+						"name" : "With Fancy Colors",
+						"file" : "screen/filters-highlight.md"
+					},
+					{
+						"name" : "But how?",
+						"file" : "screen/filters-setup.md"
 					}
 				]
 			}, 
 			{
-				"name" : "Navigator panel"
+				"name" : "Navigator panel",
+				"file" : "screen/nav-panel.md"
 			},
 			{
-				"name" : "Content panel"
+				"name" : "Content panel",
+				"file" : "screen/content-panel.md"
+			},
+			{
+				"name" : "Customizing sections"
 			},
 			{
 				"name" : "Customizing styling"

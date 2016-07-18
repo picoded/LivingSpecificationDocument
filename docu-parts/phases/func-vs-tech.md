@@ -9,7 +9,7 @@ Well the exact definition is as grey as human morality, some people find it clea
 
 Sometimes many components may overlap, which is why I actually recommend creating both document concurrently (with this tool!). However the specifics is tricky. For example while most customers do not care for encoding format, weather its UTF-8 or UTF-16, which generally makes its way to the technical specifications. Things such as MeSQL is subjective to customers. Some customers, especially those who wish to integrate or use their existing infrastructure, will view it as something that should be in a functional specification. Some customers may not even care if the application is Java or PHP, as long as they get their pretty pages. So use your judgement here.
 
-So perhaps a better way to evaluate this, if you have a perfectly good AND reasonable (to the developer) sales person is the following...
+So perhaps a better way to evaluate this, if you have a perfectly good (to the developer) sales person is the following...
 
 ~~~
 function isThisTechnicalOrFunctional(X) {
