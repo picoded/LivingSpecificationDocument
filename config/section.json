@@ -83,6 +83,11 @@
 						"file" : "screen/core-filters.md"
 					},
 					{
+						"name" : "Sample Technical",
+						"filters" : ["techDoc"],
+						"file" : "screen/core-filters.md"
+					},
+					{
 						"name" : "With Fancy Colors",
 						"file" : "screen/filters-highlight.md"
 					},
