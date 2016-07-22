@@ -57,13 +57,14 @@ body {
 }
 
 /**
-*** Navigator offset
+*** Navigator pannel
 **/
 .lsd_navPanel {
 	button {
 		padding:0.6rem;
 		padding-left:0rem;
 		padding-right:0rem;
+		text-align: left;
 	}
 	
 	.lsd_navBox {
@@ -83,6 +84,32 @@ body {
 }
 
 /**
+*** Filter panel
+**/
+.lsd_filterPanel {
+	.lsd_title {
+		text-align: center;
+		padding:20px;
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+	
+	h2 {
+		border-bottom: 1px solid;
+	}
+	
+	.material-icons {
+		display: inline-block;
+		margin-right:0.5rem;
+		text-align: left;
+	}
+	
+	button {
+		text-align: left;
+	}
+}
+
+/**
 *** Layout management
 **/
 
@@ -96,21 +123,6 @@ body {
 	.lsd_filterPanel, .lsd_navPanel, .lsd_contentPanel {
 		overflow-y:auto;
 	}
-}
-
-.lsd_filterPanel .lsd_title {
-	text-align: center;
-	padding:20px;
-	padding-top:40px;
-	padding-bottom:40px;
-}
-
-.lsd_filterPanel h2 {
-	border-bottom: 1px solid;
-}
-
-.lsd_filterPanel .material-icons {
-	margin-right:0.5rem;
 }
 
 /**
