@@ -103,10 +103,15 @@
 			},
 			{
 				"name" : "Content panel",
-				"file" : "screen/content-panel.md"
+				"file" : "screen/content-panel.md",
+				
+				"subsections" : [
+					
+				]
 			},
 			{
-				"name" : "Customizing sections"
+				"name" : "Customizing sections.json",
+				"file" : "section.md"
 			},
 			{
 				"name" : "Customizing styling"
