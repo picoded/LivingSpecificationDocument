@@ -157,11 +157,36 @@ body {
 	}
 }
 
+#lsd_contentBoxWrap {
+	display: table;
+}
+#lsd_printfooter {
+	display: table-footer-group;
+}
+
 /**
 *** Print media handling
 **/
 @media print {
 	.lsd_filterPanel, .lsd_navPanel {
 		display:none;
+	}
+	
+	#lsd_printfooter:after {
+		counter-increment: page;
+		content:"Page " counter(page);
+		left: 0; 
+		top: 100%;
+		white-space: nowrap; 
+		z-index: 20px;
+		-moz-border-radius: 5px; 
+		-moz-box-shadow: 0px 0px 4px #222;  
+		background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+		background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+	}
+}
+@page {
+	@bottom-right {
+		content: "Page " counter(page) " of " counter(pages);
 	}
 }
