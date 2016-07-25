@@ -29,8 +29,14 @@ body {
 .lsd_contentPanel {
 	background: #f2f2f2;
 	
-	h1,h2,h3,h4,h5,h6 {
+	h1 {
 		color:#0e108a;
+	}
+	h2 {
+		color:#0e438a;
+	}
+	h3,h4,h5,h6 {
+		color:#0e608a;
 	}
 	
 	blockquote, pre {
@@ -172,21 +178,23 @@ body {
 		display:none;
 	}
 	
+	/// Removed as they NO LONGER WORK
 	#lsd_printfooter:after {
-		counter-increment: page;
-		content:"Page " counter(page);
-		left: 0; 
-		top: 100%;
-		white-space: nowrap; 
-		z-index: 20px;
-		-moz-border-radius: 5px; 
-		-moz-box-shadow: 0px 0px 4px #222;  
-		background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
-		background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+		// counter-increment: page;
+		// content:"Page " counter(page);
+		// left: 0; 
+		// top: 100%;
+		// white-space: nowrap; 
+		// z-index: 20px;
+		// -moz-border-radius: 5px; 
+		// -moz-box-shadow: 0px 0px 4px #222;  
+		// background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+		// background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
 	}
-}
-@page {
-	@bottom-right {
-		content: "Page " counter(page) " of " counter(pages);
+	
+	@page {
+		// @bottom-right {
+		// 	content: "Page " counter(page) " of " counter(pages);
+		// }
 	}
 }
